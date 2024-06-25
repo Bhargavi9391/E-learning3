@@ -1,0 +1,142 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+ 
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding-bottom: 50px;
+  padding-top: 0;
+  text-align: center;
+}
+
+header nav a {
+  color: #fff;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+main {
+  padding: 1rem;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+form {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+form input {
+  width: 90%;
+  margin-top: 10px;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+form button {
+  width: 100%;
+  padding: 0.5rem;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #555;
+  transform: scale(1.1);
+}
+
+#course-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-left: 70px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  /* box-shadow: 0 0 13px rgb(241, 11, 164); */
+}
+
+
+.course-item {
+  background-color:white;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 0 13px green;
+  width: calc(33.333% - 2rem);
+  box-sizing: border-box;
+  background-color: rgb(37, 6, 58);
+}
+.course-item:hover{
+  transform: scale(0.9);
+  cursor: pointer;
+}
+
+.course-item h3 {
+  margin-top: 0;
+  color: rgb(0, 89, 255);
+}
+
+.course-item p {
+  margin: 0.5rem 0;
+  color:rgb(238, 243, 248);
+  font-size: 16px;
+  
+}
+strong{
+  color:rgb(172, 36, 172);
+  
+}
+link{
+  cursor: pointer;
+  margin-left: 500px;
+ 
+}
+nav a:hover {
+  background-color: #555;
+  color: #fff; /* Change text color on hover */
+  transform: translateY(-1px); /* Add a subtle lift effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+nav a.active {
+  font-weight: bold;
+  background-color: #4a90e2; /* Highlight color */
+  color: #efeaea; /* Text color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+nav a {
+  position: relative;
+}
+
+nav a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #4a90e2; /* Underline color */
+  transition: width 0.3s ease;
+}
+
+nav a:hover::after,
+nav a.active::after {
+  width: 100%;
+}
+
+

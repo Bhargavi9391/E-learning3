@@ -1,0 +1,90 @@
+.dashboard-container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 0 0 15px rgb(73, 142, 77);
+    
+}
+
+.welcome-section {
+    margin-bottom: 2rem;
+}
+.welcome-section:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.welcome-section h2 {
+    color: #4a90e2;
+    font-size: 2.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.welcome-section p {
+    font-size: 1.2em;
+    color: #777;
+}
+
+.courses-section {
+    text-align: left;
+}
+
+.courses-section h3 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+.course-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 0 0 13px rgb(241, 11, 164);
+}
+
+.course-card {
+    background-color: #f0f4f8;
+    border: 1px solid #e1e5eb;
+    border-radius: 10px;
+    padding: 1.5rem;
+    flex: 1;
+    height: 70px;
+    min-width: 250px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s, box-shadow 0.3s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 0 0 13px rgb(241, 11, 164);
+}
+
+.course-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.course-card h4 {
+    margin: 0 0 1rem 0;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.progress-bar {
+    background-color: #e1e5eb;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+.progress-bar .progress {
+    background-color: #4a90e2;
+    color: #fff;
+    padding: 0.5rem;
+    text-align: center;
+    height: 1rem;
+    border-radius: 5px;
+}
