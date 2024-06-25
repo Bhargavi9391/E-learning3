@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Course 1",
+    "description": "Description for Course 1",
+    "instructor": "Instructor 1",
+    "syllabus": "Syllabus for Course 1"
+  },
+  {
+    "title": "Course 2",
+    "description": "Description for Course 2",
+    "instructor": "Instructor 2",
+    "syllabus": "Syllabus for Course 2"
+  },
+  {
+    "title": "Course 3",
+    "description": "Description for Course 3",
+    "instructor": "Instructor 3",
+    "syllabus": "Syllabus for Course 3"
+  },
+  {
+    "title": "Course 4",
+    "description": "Description for Course 4",
+    "instructor": "Instructor 4",
+    "syllabus": "Syllabus for Course 4"
+  },
+  {
+    "title": "Course 5",
+    "description": "Description for Course 5",
+    "instructor": "Instructor 5",
+    "syllabus": "Syllabus for Course 5"
+  },
+  {
+    "title": "Course 6",
+    "description": "Description for Course 6",
+    "instructor": "Instructor 6",
+    "syllabus": "Syllabus for Course 6"
+  }
+]
