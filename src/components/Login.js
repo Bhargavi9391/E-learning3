@@ -43,10 +43,12 @@ const Login = () => {
                         />
                     </div>
                     <button type="submit">Login</button>
+                   <h3>Enter the below Username and password in This login page</h3>
+                    <span>Username:<b>user</b></span><br></br>
+                    <span>Password:<b>pass</b></span><br></br>
                 </form>
             </div>
         </div>
     );
 };
-
 export default Login;
