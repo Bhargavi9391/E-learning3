@@ -8,7 +8,7 @@ const CourseList = () => {
 
     return (
         <div>
-            <h2 style={{marginLeft:'550px',
+            <h2 style={{marginLeft:'520px',
                         color:'green'
             }} >Course Listings</h2>
             <div id="course-list">
